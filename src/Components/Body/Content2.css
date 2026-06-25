@@ -1,0 +1,10 @@
+.Content2{
+    color:#5c6873;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
