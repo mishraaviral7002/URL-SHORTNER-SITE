@@ -1,0 +1,124 @@
+.placey{
+    height: 24vh;
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+    border-radius: 9px;;
+    border: 1px  rgba(163, 163, 163, 0.712) solid;
+}
+.placey input{
+    margin-top: 2%;
+    height: 35%;
+    width: 80%;
+    border-radius: 9px;
+    border: 1px solid gray;
+    padding: 1%;
+    
+}
+
+.submitButtons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+}
+.submitButtons button{
+    background-color: #007BFF;
+    color: white;
+    padding: 2%;
+    margin: 2%;
+    border: 0.5px #007BFF;
+    border-radius: 8px ;
+    
+}
+
+.submitButtons button:hover {
+    background-color: #0056b3; 
+}
+.resultContainer {
+  background-color: white;
+  width: 80%;
+  border: 1px  rgba(163, 163, 163, 0.712) solid;
+  border-radius: 8px;
+  padding: 16px 24px;
+  margin-top: 24px;
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+
+.resultHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+
+
+.resultBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.shortLink {
+  color: #007BFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  word-break: break-all;
+  text-decoration: underline;
+}
+
+.shortLink:hover {
+  text-decoration: underline;
+}
+
+.resultActions {
+  display: flex;
+  gap: 12px;
+}
+
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.copyBtn {
+  background-color: #007BFF;
+  border: 1px solid #007BFF;
+  color: white;
+}
+
+.copyBtn:hover {
+  background-color: #2d4f54;
+}
+
+/* Open Button Theme (Coral/Slate tint) */
+.openBtn {
+  background-color: #007BFF;
+  border: 1px solid #5c3d44;
+  color: white;
+}
+
+.openBtn:hover {
+  background-color: #4b3b42;
+}

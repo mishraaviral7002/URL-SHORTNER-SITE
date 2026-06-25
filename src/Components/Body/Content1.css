@@ -1,0 +1,15 @@
+.Content1{
+    height: 5vh;
+    width: 25%;
+    font-size: 0.8rem;
+    background-color: #fef0eb;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top:50px ;
+    border: solid , #fed5c7;
+    color: #ff6b35;
+    font-weight: 550;
+
+}
