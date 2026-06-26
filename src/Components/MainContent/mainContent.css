@@ -122,3 +122,54 @@
 .openBtn:hover {
   background-color: #4b3b42;
 }
+
+
+@media (max-width:768px){
+
+    .placey{
+        width:95%;
+        padding:20px;
+        min-height:220px;
+        height:auto;
+    }
+
+    .placey input{
+        width:100%;
+        height:45px;
+        margin-top:15px;
+    }
+
+    .submitButtons{
+        flex-direction:column;
+        width:100%;
+        gap:10px;
+    }
+
+    .submitButtons button{
+        width:100%;
+        padding:12px;
+        margin:0;
+    }
+
+    .resultBody{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:15px;
+    }
+
+    .resultActions{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .actionBtn{
+        width:100%;
+        justify-content:center;
+    }
+
+    .shortLink{
+        font-size:1rem;
+    }
+
+}

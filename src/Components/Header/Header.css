@@ -73,5 +73,73 @@ html, body {
 
 }
 
+/* ================= MOBILE ================= */
 
+@media (max-width: 768px) {
+
+    .Title{
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .header{
+        width: 95%;
+        border-radius: 20px;
+        padding: 12px 18px;
+        box-sizing: border-box;
+    }
+
+    .logo{
+        font-size: 1.4rem;
+        margin-left: 0;
+    }
+
+    .authButtons{
+        width: auto;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .authButtons button{
+        margin: 0;
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+
+    #Sign-Up-Now,
+    #Dark{
+        margin-left: 0;
+    }
+
+}
+
+
+/* ================= SMALL PHONES ================= */
+
+@media (max-width: 480px){
+
+    .header{
+        flex-direction: column;
+        gap: 15px;
+        border-radius: 16px;
+    }
+
+    .logo{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .authButtons{
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .authButtons button{
+        width: 100%;
+        max-width: 220px;
+    }
+
+}
 
